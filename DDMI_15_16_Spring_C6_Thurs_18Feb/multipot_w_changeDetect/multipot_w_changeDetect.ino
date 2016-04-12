@@ -20,8 +20,8 @@ void loop() {
   //Pot 1
   v1 = analogRead(p1); //read analog pin
   if ( v1 < (pv1-1) || v1 > (pv1+1) ) {
-  Serial.print("pot1:"); //string header
-  Serial.println(v1); //send value to serial bus
+ // Serial.print("pot1:"); //string header
+ // Serial.println(v1); //send value to serial bus
   }
   pv1 = v1;
 
